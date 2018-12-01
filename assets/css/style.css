@@ -1,3 +1,69 @@
 html, body{
     background-image: url(../images/gravel.png);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+}
+
+.name{
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+.images{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 150px; 
+}
+
+/* Bottom right text */
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.h1{
+    font-weight: bold;
+    font-size: 25px;
+    color: #4aaaa5;
+}
+
+.h2{
+    font-size: 20px;
+    color: #4aaaa5;
+}
+
+.header{
+    border-bottom: solid;
+    border-color: lightgrey;
+}
+
+.main{
+    background-color:white;
+    width: 960px;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+.footer {
+    position: fixed;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #666666;
+    color: white;
+    border-top: solid;
+    border-top-color: #4aaaa5;
 }
