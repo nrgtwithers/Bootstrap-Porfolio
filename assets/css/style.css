@@ -20,6 +20,16 @@ html, body{
     bottom: 90%;
     position: fixed;
 }
+
+.text-block a{
+    color: white;
+}
+
+.text-block a:hover{
+    color: #cccccc;
+    text-decoration: none;
+}
+
 .caption{
     color: #4aaaa5;
     font-size: 25px;
